@@ -53,7 +53,7 @@ Make a script like:
 
     ## launch jupyter
     conda activate ac290
-    jupyter-notebook --NotebookApp.token='' --no-browser --port=${jupyter_port} --ip=$(jupyter_ip}
+    jupyter-notebook --NotebookApp.token='' --no-browser --port=${jupyter_port} --ip=${jupyter_ip}
 
 Follow instruction in the generated log file.
 
